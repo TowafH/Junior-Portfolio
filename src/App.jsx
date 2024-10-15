@@ -1,10 +1,22 @@
 import './App.css'
-
-// Image Imports
-import profilePic from './assets/pfp.png'
+import { useEffect } from 'react'
 
 //Imports
+import Home from './components/Home.jsx'
 import Header from './components/Header.jsx'
+import CFU from './components/CFU.jsx'
+
+// NavBar
+import { Route, Routes, useNavigate } from 'react-router-dom';
+
+function RedirectToHome() {
+  const navigate = useNavigate();
+  useEffect(() => {
+    navigate('/Home');
+  }, [navigate]);
+
+  return null;
+}
 
 function App() {
 
@@ -13,27 +25,12 @@ return (
   <div>
     <nav>
       <Header />
+      <Routes>
+        <Route path="/" element={<RedirectToHome />} />
+          <Route path='/Home' element={<Home />} />
+          <Route path='/CFU' element={<CFU />} />
+        </Routes>
     </nav>
-    <div>
-      <div className='about-container'>
-        {/* Container */}
-        <div className='about-me'>
-          <h1>Who Am I?</h1>
-          <img src={profilePic} className='profile-pic' />
-          <p>I'm Towaf from Queens, New York. I'm a rising junior at Thomas Edison CTE HS with a passion for Computer Science, where I'm currently learning Python!</p>
-        </div>
-
-        <div className='about-me'>
-          <h1>Education</h1>
-          <img className='profile-pic' />
-          <p>Web Development</p>
-          <p>Progamming and Prototyping</p>
-          <p>SY 2024-2025</p>
-          <p>Towaf Hossain</p>
-        </div>
-
-      </div>
-    </div>
   </div>
   </>
   )

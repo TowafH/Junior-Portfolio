@@ -11,8 +11,8 @@ return(
             <Link to='/CFU'>CFUs</Link>
             <Link to='/Lab'>Labs</Link>
             <Link to='/Project'>Projects</Link>
-            <Link to='/Home'>About</Link>
-            <Link to='/Home'>Earsketch</Link>
+            <Link to='/About'>About</Link>
+            <Link to='/EarSketch'>Earsketch</Link>
         </div>
     </div>
     )

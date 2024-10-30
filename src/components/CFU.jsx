@@ -61,6 +61,27 @@ function CFU(){
               src="https://py3.codeskulptor.org/#user309_BZtw5CHyb7LuPfu.py"></iframe>
             <p>In <b>CFU #8</b>, the code asks the user if they ordered delivery. If "yes," it requests the total cost and the number of people sharing the bill, then calculates and displays the cost per person. If the response is anything else, it asks who is cooking.</p>
           </div>
+
+            <div className='about-me'>
+            <h1>CFU #9 - Rolling Dice</h1>
+            <iframe frameborder="0" width="1000px" height="600px" 
+              src="https://py3.codeskulptor.org/#user309_GutzgqnKgF3RUGk.py"></iframe>
+            <p>In <b>CFU #9</b>, the user plays a guessing game where they are to guess randomly generated numbers between 1-6. The player chooses how many times they want to roll the dice and will earn or lose points for correct and incorrect rolls until they have no more rolls left.</p>
+          </div>
+
+            <div className='about-me'>
+            <h1>CFU #10 - Rolling Dice</h1>
+            <iframe frameborder="0" width="1000px" height="600px" 
+              src="https://py3.codeskulptor.org/#user309_kSpOnSLhtyH87Sb.py"></iframe>
+            <p>In <b>CFU #10</b>, the user plays a guessing game where the player attempts to guess the randomly generated number between 1-10 and know if their guess was too high or too low.</p>
+          </div>
+
+            <div className='about-me'>
+            <h1>Advanced Group Challenge</h1>
+            <iframe frameborder="0" width="1000px" height="600px" 
+              src="https://py3.codeskulptor.org/#user309_tz2trtgYzsdaaub.py"></iframe>
+            <p>In <b>Advanced Group Challenge</b>, I worked with a partner to create a number guessing game where the player selects the difficulty level, guesses a randomly generated number, tracks the number of attempts and total time taken, and ends after a correct guess or when rounds are exhausted.</p>
+          </div>
         </div>
   </>
   )

@@ -13,6 +13,7 @@
 /* NavBar CSS for Header.jsx*/
 .name-bar {
   float: left;
+  margin-left: 10px;
 }
 
 .name-bar h1 {

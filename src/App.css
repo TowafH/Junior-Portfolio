@@ -45,3 +45,16 @@ body {
   width: 100px;
   height: auto;
 }
+
+/* End of CFU.jsx + Lab.jsx */
+
+.resume{
+  width: auto;
+  height: 720px;
+}
+
+.resumeContainer {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}

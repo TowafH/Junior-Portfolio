@@ -80,65 +80,91 @@ function CFU(){
               src="https://py3.codeskulptor.org/#user309_BZtw5CHyb7LuPfu.py"></iframe>
           </div>
 
+
+
             <div className='about-me'>
             <h1>CFU #9 - Rolling Dice</h1>
+              <hr/>
+            <div className='flow-chart-desc'>
+              <div className='flow-chart-box'>
+                <h1>CFU #9 - Flow Chart</h1>
+                <img width="500px" height="300px" src={flowchart9}></img>
+              </div>
+              <p>In <b>CFU #9</b>, the user plays a guessing game where they are to guess randomly generated numbers between 1-6. The player chooses how many times they want to roll the dice and will earn or lose points for correct and incorrect rolls until they have no more rolls left.</p>
+            </div>
             <hr/>
-            <p>In <b>CFU #9</b>, the user plays a guessing game where they are to guess randomly generated numbers between 1-6. The player chooses how many times they want to roll the dice and will earn or lose points for correct and incorrect rolls until they have no more rolls left.</p>
             <iframe frameborder="0" width="1000px" height="600px" 
               src="https://py3.codeskulptor.org/#user309_GutzgqnKgF3RUGk.py"></iframe>
-            <hr/>
-          {/* Put This side by side with description on the top of the box */}
-            <h1>CFU #9 - Flow Chart</h1>
-            <img width="1000px" height="600px" src={flowchart9}></img>
           </div>
+
+
 
             <div className='about-me'>
             <h1>CFU #10 - Rolling Dice</h1>
             <hr/>
+          <div className='flow-chart-desc'>
+            <div className='flow-chart-box'>
+              <h1>CFU #10 - Flow Chart</h1>
+              <img width="500" height="300px" src={flowchart10}></img>
+            </div>
             <p>In <b>CFU #10</b>, the user plays a guessing game where the player attempts to guess the randomly generated number between 1-10 and know if their guess was too high or too low.</p>
+          </div>
+            <hr/>
             <iframe frameborder="0" width="1000px" height="600px" 
               src="https://py3.codeskulptor.org/#user309_kSpOnSLhtyH87Sb.py"></iframe>
             <hr/>
-          {/* Put This side by side with description on the top of the box */}
-            <h1>CFU #10 - Flow Chart</h1>
-            <img width="1000px" height="600px" src={flowchart10}></img>
           </div>
+
+
 
             <div className='about-me'>
             <h1>Advanced Group Challenge</h1>
             <hr/>            
-
+          <div className='flow-chart-desc'>
+            <div className='flow-chart-box'>
+              <h1>Advanced Group Challenge - Flow Chart</h1>
+              <img width="500px" height="300px" src={flowchartAdvanced}></img>
+            </div>
             <p>In <b>Advanced Group Challenge</b>, I worked with a partner to create a number guessing game where the player selects the difficulty level, guesses a randomly generated number, tracks the number of attempts and total time taken, and ends after a correct guess or when rounds are exhausted.</p>
+          </div>
+            <hr/>
             <iframe frameborder="0" width="1000px" height="600px" 
               src="https://py3.codeskulptor.org/#user309_tz2trtgYzsdaaub.py"></iframe>
-            <hr/>
-          {/* Put This side by side with description on the top of the box */}
-            <h1>Advanced Group Challenge - Flow Chart</h1>
-            <img width="1000px" height="600px" src={flowchartAdvanced}></img>
           </div>
+
+
 
           <div className='about-me'>
             <h1>CFU #11 - For Loop Programs</h1>
-
+            <hr/>
+          <div className='flow-chart-desc'>
+            <div className='flow-chart-box'>
+              <h1>CFU #11 - Flow Chart</h1>
+              <img width="500px" height="300px" src={flowchart11}></img>
+            </div>
             <p>In <b>CFU #11</b>, I created a program with three functions, which prints numbers from 10 to 70 in steps of 10, prints numbers from 0 to 10 in increments of 0.5, and sings the "99 Bottles of Beer" song, with a prompt for the user to choose which function to run.</p>
+          </div>
+          <hr/>
             <iframe frameborder="0" width="1000px" height="600px" 
               src="https://py3.codeskulptor.org/#user309_YG0eeYFq1ERt4d8.py"></iframe>
-            <hr/>
-          {/* Put This side by side with description on the top of the box */}
-            <h1>CFU #11 - Flow Chart</h1>
-            <img width="1000px" height="600px" src={flowchart11}></img>
           </div>
+
+
+
 
           <div className='about-me'>
             <h1>CFU #12 - Password Program</h1>
             <hr/>
+          <div className='flow-chart-desc'>
+            <div className='flow-chart-box'>
+            <h1>CFU #12 - Flow Chart</h1>
+            <img width="500px" height="300px" src={flowchart12}></img>
+            </div>
             <p>In <b>CFU #12</b>, this program allows user to pick one out of two versions for password entry. In Version 1, users are allowed unlimited attempts until the correct password "simonsnyc" is entered, while Version 2 restricts users to three attempts before access is denied.</p>
+          </div>
+          <hr/>
             <iframe frameborder="0" width="1000px" height="600px" 
               src="https://py3.codeskulptor.org/#user309_QkXO7akZBmVGciw.py"></iframe>
-            <hr/>
-            {/* Put This side by side with description on the top of the box */}
-            <h1>CFU #12 - Flow Chart</h1>
-            <img width="1000px" height="600px" src={flowchart12}></img>
           </div>
 
         </div>

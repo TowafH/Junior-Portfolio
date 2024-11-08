@@ -13,7 +13,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 20px auto;
+  margin: 5px auto;
   width: 90%;
   max-width: 1300px;
 }
@@ -34,7 +34,7 @@ body {
 }
 
 .about-me p {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .about-me .profile-pic {
@@ -45,7 +45,6 @@ body {
   width: 100px;
   height: auto;
 }
-
 
 .flow-chart-desc {
   display: flex;
@@ -73,3 +72,4 @@ body {
   justify-content: center;
   margin: 0 auto;
 }
+

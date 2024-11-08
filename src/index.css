@@ -12,12 +12,12 @@
 
 /* NavBar CSS for Header.jsx*/
 .name-bar {
+  display: flex;
   float: left;
-  margin-left: 10px;
 }
 
 .name-bar h1 {
-  margin: 0;
+  margin: 2px;
   font-size: 40px;
 }
 
@@ -31,6 +31,7 @@
 .nav-bar {
   float: right;
   margin: 10px;
+  margin-top: 5px;
   display: flex;
 }
 
@@ -46,3 +47,36 @@
   color: snow;
 }
 /* End of NavBar CSS for Header.jsx*/
+
+.school-logo {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}
+
+/* Months CSS */
+
+.months {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.months div {
+  background-color: #686666;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 7px black;
+  flex: 1 1 50%;
+  margin: 10px;
+  text-align: center;
+}
+
+.months div h1 {
+  padding: 5px;
+}
+
+.months div ul {
+  text-align: left;
+  font-size: 18px;
+}

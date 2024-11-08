@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
+import taehs from '../assets/taehs.png'
 
 function Header(){
 return(
     <div className="header">
         <div className="name-bar">
+        <a target="_blank" href="https://www.taehs.org/" rel='noreferrer'><img src={taehs} className='school-logo' /></a>
             <h1>Junior Portfolio</h1>
         </div>
         <div className="nav-bar">

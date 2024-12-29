@@ -126,6 +126,36 @@ return (
             desc={<>In <b>CFU #12</b>, I created a program that allows users to pick one out of two versions for password entry. In Version 1, users are allowed unlimited attempts until the correct password "simonsnyc" is entered, while Version 2 restricts users to three attempts before access is denied</>}
             py="https://py3.codeskulptor.org/#user309_QkXO7akZBmVGciw.py"
             />
+            <CFU 
+            num="#13"
+            name="Happy Dots"
+            desc={<>In <b>CFU #13</b>, I used the SimpleGUI Library to draw a smiley face on a 200x200 canvas using the draw_point method.</>}
+            py="https://py3.codeskulptor.org/#user310_PERkfLEkauCrIRK.py"
+            />
+            <CFU 
+            num="#14"
+            name="Happy Lines"
+            desc={<>In <b>CFU #14</b>, I used the SimpleGUI Library to draw a smiley face with a nose on a 200x200 canvas using the draw_line method.</>}
+            py="https://py3.codeskulptor.org/#user310_96ZqV6vphoZD4Et.py"
+            />
+            <CFU 
+            num="#15"
+            name="Happy Shapes"
+            desc={<>In <b>CFU #15</b>, I used the SimpleGUI Library to draw a smiley face with a nose on a 200x200 canvas using the draw_polygon method to incorporate several shapes.</>}
+            py="https://py3.codeskulptor.org/#user310_96ZqV6vphoZD4Et.py"
+            />
+            <CFU 
+            num="#16"
+            name="Happy Circles"
+            desc={<>In <b>CFU #16</b>, I used the SimpleGUI Library to draw a smiley face with a nose on a 200x200 canvas using the draw_circle method</>}
+            py="https://py3.codeskulptor.org/#user310_HHooVvZ5sb0fApV.py"
+            />
+            <CFU 
+            num="#17"
+            name="Shape Drawing w/ Toggles"
+            desc={<>In <b>CFU #16</b>, I used the SimpleGUI Library to draw a circle, square, triangle, and ellipse. The user can select the width and hight of the canvas and select which shapes to view with buttons.</>}
+            py="https://py3.codeskulptor.org/#user310_SgPNerreMTPHAPv.py"
+            />
 
           </>
             } />
@@ -156,6 +186,13 @@ return (
             desc={<>In <b>PS Assignment 4: Divisible By 3</b>, the code checks multiple user-inputted numbers for divisibility by 3 and counts how many are divisible or not, then displays the results.</>}
             py="https://py3.codeskulptor.org/#user309_Z12VVSZ63bFSd7c.py"
             />
+            <Lab 
+            num="5"
+            name="Using EarSketch to Design a Ringtone"
+            desc={<>In <b>PS Assignment 5: Using EarSketch to Design a Ringtone</b>, I created a ringtone using the EarSketch Python API. It layers piano melodies and drum beats while applying volume effects and beat patterns.</>}
+            py="https://earsketch.gatech.edu/earsketch2/?sharing=JjamRFpOeO1CSsziJj1JQQ&embedded=true"
+            />
+
           </>
             } />
           <Route path='/Project' element={<Project />} />

@@ -20,7 +20,7 @@ function Project(props){
             <hr/>
             </>
             ) : <p>{props.desc}</p>}
-            <iframe frameBorder="0" width="1150px" height="600px" 
+            <iframe frameBorder="0" width="1150px" height="900px" 
               src={props.py}></iframe>
           </div>
 

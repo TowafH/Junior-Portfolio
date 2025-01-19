@@ -21,13 +21,13 @@ return(
     </div>
 
     <div className='about-me'>
-        <h1>Marking Period 1</h1>
+        <h1>Fall Term - Marking Period 1</h1>
             <div className='months'>
                 <div className='september'>
                     <h1>September</h1>
                         <ul>
                             <li>Reviewed Variables, Data-Types, Mathematical Operations in Programming</li>
-                            <li>Learned about Computer Hardware/Sotware, CPU's, Memory Types, Binary Numbers, and <b>Escape Sequences</b></li>
+                            <li>Learned about Computer Hardware/Sotware, CPU's, Memory Types, Binary Numbers, and Escape Sequences</li>
                             <li>Introduced the <b>int()</b>, <b>str()</b>, <b>input()</b>, <b>max()</b>, and <b>min()</b> functions</li>
                             <li>Completed CFU from #1 to #4</li>
                             <li>Completed Unit 1 in ProjectStem</li>
@@ -46,11 +46,48 @@ return(
                         </ul>
                 </div>
 
-                <div className='November'>
+                <div className='november'>
                     <h1>November</h1>
                         <ul>
                             <li>Student Representative for Web/App Development at the Open House in TAEHS</li>
                             <li>Developed Junior Portfolio using React.js</li>
+                        </ul>
+                </div>
+            </div>
+    </div>
+
+    <div className='about-me'>
+        <h1>Fall Term - Marking Period 2</h1>
+            <div className='months'>
+                <div className='november'>
+                    <h1>November</h1>
+                        <ul>
+                            <li>Learned how to program in EarSketch using their Built-in Functions to create music</li>
+                            <li>Introduced <b>fitMedia()</b>, <b>setEffect()</b>, <b>control()</b>, <b>makeBeat()</b>, and <b>setTempo()</b> to manipulate music with <b>EarSketch</b></li>
+                            <li>Completed a Thanksgiving Drawing Project</li>
+                            <li>Completed CFU from #13 to #15</li>
+                            <li>Completed Unit 5 in ProjectStem</li>
+                        </ul>
+                </div>
+
+                <div className='december'>
+                    <h1>December</h1>
+                        <ul>
+                            <li>Learned how to utilize the <b>SimpleGUI</b> Library to create drawings</li>
+                            <li>Introduced <b>simplegui.create_frame()</b>, <b>frame.add_button()</b>, <b>frame.set_canvas_background()</b>, <b>frame.set_draw_handler()</b>, <b>simplegui.load_image()</b>, <b>frame.start()</b>, and <b>frame.add_label()</b> for creating interactive games with <b>SimpleGUI</b></li>
+                            <li>Attended the Pencil / InfoSys InfyApp Bootcamp at One WTC</li>
+                            <li>Completed CFU #16</li>
+                            <li>Completed Unit 6 in ProjectStem</li>
+                        </ul>
+                </div>
+
+                <div className='january'>
+                    <h1>January</h1>
+                        <ul>
+                            <li>Learned how to utilize the <b>List</b> to store strings, integers, floats, and other datatypes</li>
+                            <li>Completed Emoji Group Project and Peaceformers Game Project</li>
+                            <li>Completed CFU #17-18</li>
+                            <li>Completed Unit 7-8 in ProjectStem</li>
                         </ul>
                 </div>
             </div>

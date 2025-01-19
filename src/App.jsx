@@ -20,6 +20,9 @@ import flowchartAdvanced from './assets/flowcharts/advanced.png'
 import flowchart11 from './assets/flowcharts/flowchart11.png'
 import flowchart12 from './assets/flowcharts/flowchart12.png'
 
+//Images 4 Projects
+import empires from './assets/wireframes/empires.png'
+
 
 function RedirectToHome() {
   const navigate = useNavigate();
@@ -153,10 +156,15 @@ return (
             <CFU 
             num="#17"
             name="Shape Drawing w/ Toggles"
-            desc={<>In <b>CFU #16</b>, I used the SimpleGUI Library to draw a circle, square, triangle, and ellipse. The user can select the width and hight of the canvas and select which shapes to view with buttons.</>}
+            desc={<>In <b>CFU #17</b>, I used the SimpleGUI Library to draw a circle, square, triangle, and ellipse. The user can select the width and hight of the canvas and select which shapes to view with buttons.</>}
             py="https://py3.codeskulptor.org/#user310_SgPNerreMTPHAPv.py"
             />
-
+            <CFU 
+            num="#18"
+            name="Price & Reciept Calculation Program"
+            desc={<>In <b>CFU #18</b>, I implemented three versions to calculate and display prices using Python concepts like functions, loops, and lists. Users can choose between a fixed list, input their own prices, or input item names and prices to generate a receipt.</>}
+            py="https://py3.codeskulptor.org/#user310_cgGVfJIZh7SfcqY.py"
+            />
           </>
             } />
 
@@ -192,10 +200,46 @@ return (
             desc={<>In <b>PS Assignment 5: Using EarSketch to Design a Ringtone</b>, I created a ringtone using the EarSketch Python API. It layers piano melodies and drum beats while applying volume effects and beat patterns.</>}
             py="https://earsketch.gatech.edu/earsketch2/?sharing=JjamRFpOeO1CSsziJj1JQQ&embedded=true"
             />
-
+            <Lab 
+            num="6"
+            name="Animation"
+            desc={<>In <b>PS Assignment 6: Animation</b>, I used the SimpleGUI Python library to create an animated holiday-themed scene with falling snowflakes, a moving sun, detailed skyscrapers, decorated trees, and a snowman.</>}
+            py="https://py3.codeskulptor.org/#user310_afbyYNR9vkT6lU3.py"
+            />            
+            <Lab 
+            num="7"
+            name="Calendar"
+            desc={<>In <b>PS Assignment 7: Calendar</b>, I used functions to determine if a year is a leap year, calculate the number of days in a month, and count the days passed in the year. The program prompts the user to input a date and select an option to either find the days in the month or the days passed in the year.</>}
+            py="https://py3.codeskulptor.org/#user310_J0ZF2UOUjHWxSv3.py"
+            />
+            <Lab 
+            num="8"
+            name="Personal Organizer"
+            desc={<>In <b>PS Assignment 8: Personal Organizer</b>, I used functions to code event data by validating date inputs, storing event details, and displaying them with month names. It supports adding multiple events until the user stops.</>}
+            py="https://py3.codeskulptor.org/#user310_6cMgdxBuhxuScra.py"
+            />
           </>
             } />
-          <Route path='/Project' element={<Project />} />
+          <Route path='/Project' element={
+          <>
+            <Project
+             name="Thanksgiving Drawing"
+             desc={<>I made a <b>Thanksgiving Drawing</b> using <b>SimpleGUI</b> to create a drawing of a Turkey for Thanksgiving!</>}
+             py="https://py3.codeskulptor.org/#user310_fb0wLnuDuPkkUju.py"
+            />
+            <Project
+             name="Emoji"
+             desc={<>I worked with my peers to display our <b>Emojis</b> using <b>SimpleGUI.</b> These emojis are scaled to the width and height selected by the user</>}
+             py="https://py3.codeskulptor.org/#user310_vbdk6F14BP9P5Xm.py"
+            />
+            <Project
+             name="Empires Horizon"
+             wire={empires}
+             desc={<>I developed <b>Empires Horizon</b> using the <b>SimpleGUI</b> Python Library. This game is inspired by the <b>G4C Peaceformers Challenge</b>, where students imagine a world where players need to take action about how resources are shared and divided.</>}
+             py="https://py3.codeskulptor.org/#user310_SAfoXEbne8BMQy3.py"
+            />
+          </>  
+            } />
           <Route path='/About' element={<About />} />
           <Route path='/EarSketch' element={<EarSketch />} />
         </Routes>

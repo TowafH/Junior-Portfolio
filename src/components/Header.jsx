@@ -13,8 +13,10 @@ return(
             <Link to='/CFU'>CFUs</Link>
             <Link to='/Lab'>Labs</Link>
             <Link to='/Project'>Projects</Link>
+            <Link to='/InfyApp'>InfyApp</Link>
+            <Link to='/Competition'>Competitions</Link>
+            <Link to='/Certification'>Certification</Link>
             <Link to='/About'>About</Link>
-            <Link to='/EarSketch'>Earsketch</Link>
         </div>
     </div>
     )

@@ -7,6 +7,9 @@ import Header from './components/Header.jsx'
 import CFU from './components/CFU.jsx'
 import Lab from './components/Lab.jsx'
 import Project from './components/Project.jsx'
+import InfyApp from './components/InfyApp.jsx'
+import Competition from './components/Competition.jsx'
+import Certification from './components/Certification.jsx'
 import About from './components/About.jsx'
 import EarSketch from './components/EarSketch.jsx'
 
@@ -240,8 +243,10 @@ return (
             />
           </>  
             } />
+          <Route path='/InfyApp' element={<InfyApp />} />
+          <Route path='/Competition' element={<Competition />} />
+          <Route path='/Certification' element={<Certification />} />
           <Route path='/About' element={<About />} />
-          <Route path='/EarSketch' element={<EarSketch />} />
         </Routes>
     </nav>
   </div>

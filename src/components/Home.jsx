@@ -93,6 +93,43 @@ return(
             </div>
     </div>
 
+    <div className='about-me'>
+        <h1>Spring Term - Marking Period 1</h1>
+            <div className='months'>
+                <div className='february'>
+                    <h1>February</h1>
+                        <ul>
+                            <li>Learned how to program in EarSketch using their Built-in Functions to create music</li>
+                            <li>Introduced <b>fitMedia()</b>, <b>setEffect()</b>, <b>control()</b>, <b>makeBeat()</b>, and <b>setTempo()</b> to manipulate music with <b>EarSketch</b></li>
+                            <li>Completed a Thanksgiving Drawing Project</li>
+                            <li>Completed CFU from #13 to #15</li>
+                            <li>Completed Unit 5 in ProjectStem</li>
+                        </ul>
+                </div>
+
+                <div className='march'>
+                    <h1>March</h1>
+                        <ul>
+                            <li>Learned how to utilize the <b>SimpleGUI</b> Library to create drawings</li>
+                            <li>Introduced <b>simplegui.create_frame()</b>, <b>frame.add_button()</b>, <b>frame.set_canvas_background()</b>, <b>frame.set_draw_handler()</b>, <b>simplegui.load_image()</b>, <b>frame.start()</b>, and <b>frame.add_label()</b> for creating interactive games with <b>SimpleGUI</b></li>
+                            <li>Attended the Pencil / InfoSys InfyApp Bootcamp at One WTC</li>
+                            <li>Completed CFU #16</li>
+                            <li>Completed Unit 6 in ProjectStem</li>
+                        </ul>
+                </div>
+
+                <div className='april'>
+                    <h1>April</h1>
+                        <ul>
+                            <li>Learned how to utilize the <b>List</b> to store strings, integers, floats, and other datatypes</li>
+                            <li>Completed Emoji Group Project and Peaceformers Game Project</li>
+                            <li>Completed CFU #17-18</li>
+                            <li>Completed Unit 7-8 in ProjectStem</li>
+                        </ul>
+                </div>
+            </div>
+    </div>
+
     </div>
 </>
 )

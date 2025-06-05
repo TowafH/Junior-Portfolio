@@ -156,6 +156,7 @@ return(
                             <li>Submitted Amsterdam - MedPocket to Emoti-Con NYC</li>
                             <li>Presented MedPocket to a panel of judges from InfoSys during the InfyApp Challenge Semifinals</li>
                             <li>Studied for the <b>IT Specialist - Python</b> Certification through GMetrix and PythonV2 Student Workbook</li>
+                            <li>Competed in the 2025 Citywide Graphic Arts Competition @ CCNY</li>
                             <li>Completed GRIT Week 12 to Week Week 16</li>
                         </ul>
                 </div>

@@ -1,6 +1,6 @@
 function Certification() {
     return(
-       <h1></h1> 
+       <iframe className="iAmsterdam" src="https://towafh.github.io/ITSpecialist_Python/"></iframe>
     )
 }
 

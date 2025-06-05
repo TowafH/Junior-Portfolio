@@ -11,7 +11,7 @@ import InfyApp from './components/InfyApp.jsx'
 import Competition from './components/Competition.jsx'
 import Certification from './components/Certification.jsx'
 import About from './components/About.jsx'
-import EarSketch from './components/EarSketch.jsx'
+//import EarSketch from './components/EarSketch.jsx'
 
 // NavBar
 import { Route, Routes, useNavigate } from 'react-router-dom';
@@ -244,7 +244,19 @@ return (
           </>  
             } />
           <Route path='/InfyApp' element={<InfyApp />} />
-          <Route path='/Competition' element={<Competition />} />
+          <Route path='/Competition' element={
+            <>
+            <Competition 
+            name="SkillsUSA-25 | Cineplex Cinemas"
+            web="https://towafh.github.io/SkillsUSA-25/"
+            />
+            <Competition 
+            name="2025 Citywide Graphic Arts Competition | Sheikhs N Burgers"
+            web="https://towafh.github.io/SheikhsNBurgers/"
+            />
+            </>
+            } 
+            />
           <Route path='/Certification' element={<Certification />} />
           <Route path='/About' element={<About />} />
         </Routes>
